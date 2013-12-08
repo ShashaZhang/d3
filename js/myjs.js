@@ -1,3 +1,4 @@
-var div = document.createElement("div");
-div.innerHTML = "Hello World from javascript file";
-document.body.appendChild(div);
+var body = d3.select("body");
+var div = body.append("div");
+div.html("Hello World!!!!!");
+div.style("color","black").style("background-color","steelblue");
